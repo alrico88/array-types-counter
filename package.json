@@ -1,14 +1,18 @@
 {
-  "version": "0.1.0",
-  "name": "tsdx-boilerplate",
+  "version": "1.0.0",
+  "name": "array-types-counter",
   "author": "Alberto Rico",
-  "keywords": [],
+  "keywords": [
+    "array",
+    "types",
+    "count"
+  ],
   "repository": {
-    "url": ""
+    "url": "https://github.com/alrico88/array-types-counter"
   },
   "license": "MIT",
   "main": "dist/index.js",
-  "module": "dist/tsdx-boilerplate.esm.js",
+  "module": "dist/array-types-counter.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -39,6 +43,7 @@
     "trailingComma": "es5"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.170",
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
     "coveralls": "^3.1.0",
@@ -49,5 +54,10 @@
     "typedoc": "^0.20.34",
     "typedoc-plugin-markdown": "^3.6.0",
     "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "number-helper-functions": "^4.0.0"
   }
 }
